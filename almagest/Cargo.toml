@@ -1,0 +1,15 @@
+[package]
+name = "almagest"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["rlib"]
+
+[features]
+default = ["std"]
+std = []
+
+[dependencies]
+approx = "0.5.1"
+libm = "0.2.15"
